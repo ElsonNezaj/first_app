@@ -64,6 +64,58 @@ flutter:
     - assets/images/dice-4.png
     - assets/images/dice-5.png
     - assets/images/dice-6.png
+    - assets/images/cards/clubs_1.png
+    - assets/images/cards/clubs_2.png
+    - assets/images/cards/clubs_3.png
+    - assets/images/cards/clubs_4.png
+    - assets/images/cards/clubs_5.png
+    - assets/images/cards/clubs_6.png
+    - assets/images/cards/clubs_7.png
+    - assets/images/cards/clubs_8.png
+    - assets/images/cards/clubs_9.png
+    - assets/images/cards/clubs_10.png
+    - assets/images/cards/clubs_11.png
+    - assets/images/cards/clubs_12.png
+    - assets/images/cards/clubs_13.png
+    - assets/images/cards/diamonds_1.png
+    - assets/images/cards/diamonds_2.png
+    - assets/images/cards/diamonds_3.png
+    - assets/images/cards/diamonds_4.png
+    - assets/images/cards/diamonds_5.png
+    - assets/images/cards/diamonds_6.png
+    - assets/images/cards/diamonds_7.png
+    - assets/images/cards/diamonds_8.png
+    - assets/images/cards/diamonds_9.png
+    - assets/images/cards/diamonds_10.png
+    - assets/images/cards/diamonds_11.png
+    - assets/images/cards/diamonds_12.png
+    - assets/images/cards/diamonds_13.png
+    - assets/images/cards/hearts_1.png
+    - assets/images/cards/hearts_2.png
+    - assets/images/cards/hearts_3.png
+    - assets/images/cards/hearts_4.png
+    - assets/images/cards/hearts_5.png
+    - assets/images/cards/hearts_6.png
+    - assets/images/cards/hearts_7.png
+    - assets/images/cards/hearts_8.png
+    - assets/images/cards/hearts_9.png
+    - assets/images/cards/hearts_10.png
+    - assets/images/cards/hearts_11.png
+    - assets/images/cards/hearts_12.png
+    - assets/images/cards/hearts_13.png
+    - assets/images/cards/spades_1.png
+    - assets/images/cards/spades_2.png
+    - assets/images/cards/spades_3.png
+    - assets/images/cards/spades_4.png
+    - assets/images/cards/spades_5.png
+    - assets/images/cards/spades_6.png
+    - assets/images/cards/spades_7.png
+    - assets/images/cards/spades_8.png
+    - assets/images/cards/spades_9.png
+    - assets/images/cards/spades_10.png
+    - assets/images/cards/spades_11.png
+    - assets/images/cards/spades_12.png
+    - assets/images/cards/spades_13.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
