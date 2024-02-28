@@ -14,10 +14,12 @@ class DiceRoller extends StatefulWidget {
 
 class _DiceRollerState extends State<DiceRoller> {
   var currentDiceRoll = 2;
+  var currentCardType = "diamonds";
+  var cardsArray = ["diamonds", "spades", "hearts", "clubs"];
 
   void rollDice() {
     setState(() {
-      currentDiceRoll = randomizer.nextInt(6) + 1;
+      currentDiceRoll = randomizer.nextInt(13) + 1;
     });
   }
 
@@ -27,7 +29,7 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/dice-$currentDiceRoll.png',
+          'assets/images/cards/$currentCardType-$currentDiceRoll.png',
           width: 200,
         ),
         const SizedBox(
@@ -39,7 +41,7 @@ class _DiceRollerState extends State<DiceRoller> {
             foregroundColor: Colors.white,
             textStyle: const TextStyle(fontSize: 28),
           ),
-          child: const Text("Roll Dice"),
+          child: const Text("Get Spades Card"),
         )
       ],
     );
