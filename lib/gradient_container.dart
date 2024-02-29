@@ -1,3 +1,4 @@
+import "package:first_app/cart_picker.dart";
 import "package:first_app/dice_roller.dart";
 import "package:flutter/material.dart";
 
@@ -20,7 +21,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(child: DiceRoller()),
+      child: const Center(child: CardPicker()),
     );
   }
 }
